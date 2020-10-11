@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 800px) {
+    justify-content: flex-start;
+  }
+  @media screen and (max-width: 414px) {
+    padding-left: 0;
+  }
+  &-image {
+    width: 229px;
+    height: 90px;
+    background: url("/images/layout-sprite-uk@2x.png") 24px 3px no-repeat;
+    background-size: 500px;
+    @media screen and (max-width: 800px) {
+      width: 175px;
+      background-position: 0 3px;
+    }
+    @media screen and (max-width: 414px) {
+      height: 50px;
+      background-position: 0 -109px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.top-bar {
+  animation: 1s appear;
+  margin: auto;
+  @media screen and (max-width: 414px) {
+    padding-right: 0;
+  }
+  &-nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    &__item {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      margin: 0 .7rem;
+      padding: 0;
+      .account {
+        font-size: .65rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000;
+        margin-right: 8px;
+      }
+      &:hover {
+        color: #258faf;
+        text-decoration: none;
+      }
+      div {
+        display: flex;
+        align-items: center;
+      }
+      svg {
+        fill: #304258;
+        font-size: 25px;
+        &:hover {
+          fill: #fc4c02;
+        }
+      }
+    }
+  }
+}

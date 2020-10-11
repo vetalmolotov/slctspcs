@@ -1,0 +1,24 @@
+.delivery {
+  display: flex;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+  &-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 150px;
+  }
+  &-icon {
+    height: 50px;
+    background: url("/images/layout-sprite@2x.png") 16px 3px no-repeat;
+    background-size: 775px;
+  }
+  &-text p {
+    text-align: center;
+    font-size: .7rem;
+    line-height: .9rem;
+    margin: 0;
+  }
+}

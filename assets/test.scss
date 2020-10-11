@@ -1,0 +1,40 @@
+body{
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  color: #222;
+}
+.app {
+  padding: 0;
+  &-container {
+    & > .row {
+      width: 100%;
+      max-width: 1450px;
+      margin: 0 auto;
+      padding: 0;
+      &.featured-products {
+        padding: 2rem 0;
+      }
+    }
+  }
+  & > section {
+    display: flex;
+    padding: 0;
+  }
+  &-header {
+    min-height: 90px;
+    background: #f6f6f6;
+    @media screen and (max-width: 414px) {
+      min-height: 50px;
+    }
+  }
+  &-content {
+    background: #fff;
+  }
+  &-featured {
+    background: #f7f5f6;
+  }
+  &-tabs-bootstrap > .row {
+    flex-direction: column;
+    padding: 32px 16px 64px;
+  }
+}
