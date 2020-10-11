@@ -17,6 +17,9 @@
   border-right: 1px solid #e2e6e7;
   border-bottom: none;
   border-radius: 0;
+  @media screen and (max-width: 365px) {
+    font-size: .85rem;
+  }
   &:hover {
     background: #fefefe;
     color: #fc4c02;

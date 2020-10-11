@@ -8,6 +8,9 @@
   @media screen and (max-width: 414px) {
     padding-left: 0;
   }
+  @media screen and (max-width: 365px) {
+    max-width: 50%;
+  }
   &-image {
     width: 229px;
     height: 90px;

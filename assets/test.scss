@@ -27,6 +27,13 @@ body{
       min-height: 50px;
     }
   }
+  &-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background: #eaeaea;
+    min-height: 40px;
+  }
   &-content {
     background: #fff;
   }

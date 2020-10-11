@@ -8,6 +8,9 @@
         <TopBar />
       </section>
     </header>
+    <section class="container-fluid app-container app-navbar">
+      <NavBar />
+    </section>
     <section class="container-fluid app-container app-content">
         <BasicInfo />
     </section>
@@ -31,8 +34,9 @@ import BasicInfo from "~/components/content/BasicInfo";
 import Featured from "~/components/content/Featured";
 import TabsCustom from "~/components/content/TabsCustom";
 import TabsBootstrap from "~/components/content/TabsBootstrap";
+import NavBar from "~/components/NavBar";
 export default {
-  components: {TabsBootstrap, TabsCustom, Featured, BasicInfo, TopBar, Delivery, Logo},
+  components: {NavBar, TabsBootstrap, TabsCustom, Featured, BasicInfo, TopBar, Delivery, Logo},
 }
 </script>
 
